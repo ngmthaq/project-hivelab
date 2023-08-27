@@ -1,0 +1,33 @@
+@font-face {
+    font-family: "Satoshi";
+    src: url(/fonts/Satoshi/Satoshi-Regular.otf);
+}
+
+@font-face {
+    font-family: "Clash Display";
+    src: url(/fonts/ClashDisplay/ClashDisplay_Complete/Fonts/OTF/ClashDisplay-Regular.otf);
+}
+
+:root {
+    /* UNITS */
+    --unit-px: 4px;
+
+    /* FONTS */
+    --font-family-primary: "Satoshi", sans-serif;
+    --font-family-secondary: "Clash Display", sans-serif;
+
+    /* COLORS */
+    --color-dark: #12131A;
+    --color-light: #F9F9F9;
+    --color-primary: #2A254B;
+    --color-secondary: #4E4D93;
+    --color-nav-item: #726E8D;
+    --color-text: #505977;
+
+    /* BREAKPOINTS */
+    --brp-sm: 600px;
+    --brp-md: 992px;
+    --brp-lg: 1200px;
+    --brp-xl: 1440px;
+    --brp-xxl: 2048px;
+}

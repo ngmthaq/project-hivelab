@@ -1,0 +1,8 @@
+.container {
+    width: 100%;
+}
+
+.container.limit {
+    max-width: var(--brp-xl);
+    margin: 0 auto;
+}
