@@ -19,7 +19,7 @@
         height: 600px;
         width: 100%;
         flex: unset;
-        padding-bottom: 28px;
+        margin-bottom: 28px;
     }
 
     .product-information-container .product-information {
@@ -308,6 +308,10 @@
     }
 
     .contact-container .contact-wrapper .contact-form {
+        width: 100%;
+    }
+
+    .contact-container .contact-wrapper .contact-form input {
         width: 100%;
     }
 
